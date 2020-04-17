@@ -2,16 +2,14 @@
 
 Just a small hello world project for playing around with SwiftNIO. 
 
-**Example:**
+**Example:**<br/>
+```
+swift build
+*Optional* swift package generate-xcodeproj
+swift run swift_nio_example localhost 80
+```
 
-`swift build`
-
-*Optional* `swift package generate-xcodeproj`
-
-`swift run swift_nio_example localhost 80`
-
-**Example output:**
-
+**Example output:**<br/>
 http://localhost/mypath?parameter1=Hello&parameter2=world
 
 ```
